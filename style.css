@@ -1,0 +1,108 @@
+
+*{ 
+    font-family: 'Glegoo', serif;}
+   /*------------------------------- header part start ------------------------*/
+header{
+    background-color: rgb(244, 245, 246);
+    margin-bottom: 100px;
+}
+.img-fluid1{
+    width: 200px;
+}
+.button{
+    border-radius: 50px;
+}
+
+ /*------------------------------- header part end ------------------------*/
+
+
+
+  /*------------------------------- learn part start ------------------------*/
+
+.limg img{
+    width: 65px;
+    margin-bottom: 20px;
+}
+
+.lcard{
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: center;
+    background-color:rgb(244, 245, 246);
+    height: 210px;
+    margin-bottom: 10px;
+
+}
+.h-card{
+    margin: 0 auto;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 7px 7px 10px lightgray;
+    height: 210px;
+    margin-bottom: 10px;
+
+}
+
+
+   /*---------------//---------------- learn part end ------------------------*/
+
+
+   
+  /*------------------------------- courses part start ------------------------*/
+    .btn-img img{
+        width: 20px;
+    }
+    .btn-img h6{
+        font-size: 12px;
+        padding: 7px 0 0 2px;
+      
+    }
+.btn-img{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+    /*----------------//--------------- courses part end ------------------------*/
+    .testi-img{
+        width: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin: 0 auto;
+        margin-bottom: 100px;
+        
+
+    }
+    .testi-img img{
+        width: 200px;
+       
+    }
+    .testi-img p{
+      padding: 10px;
+    }
+
+.p-learn{
+    background-color:rgb(244, 245, 246);
+    height: 300px;
+    padding-top: 60px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+    @media(max-width:500px){
+        .testi-img{
+            flex-direction: column;
+        }
+        .p-learn h1{
+            font-size: 25px;
+
+        }
+            
+        
+    }
